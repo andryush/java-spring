@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!--Property file-->
+    <context:property-placeholder location="classpath:sport.properties" />
+
+    <!-- add entry to enable component scanning -->
+    <bean id="myLoggerConfig" class="com.arakelyan.springdemo.MyLoggerConfig" init-method="initLogger">
+        <property name="rootLoggerLevel" value="FINE" />
+        <property name="printedLoggerLevel" value="FINE"/>
+    </bean>
+
+    <!-- define dependencies -->
+    <bean id="myFortuneService" class="com.arakelyan.springdemo.HappyFortuneService">
+
+    </bean>
+
+    <bean id="newFortuneService" class="com.arakelyan.springdemo.NewFortuneService">
+
+    </bean>
+
+    <!--inject dependencies via constructor-->
+    <bean id="myCoach" class="com.arakelyan.springdemo.TrackCoach">
+        <constructor-arg ref="myFortuneService" />
+    </bean>
+
+    <!--Inject dependencies & literals via SETTERS as value and using config file-->
+    <bean id="myCricketCoach" class="com.arakelyan.springdemo.CricketCoach">
+        <property name="fortuneService" ref="myFortuneService" />
+        <!--<property name="emailAddress" value="andryush333@gmail.com"/>-->
+        <!--<property name="team" value="Chicago Bulls" />-->
+        <property name="emailAddress" value="${foo.email}" />
+        <property name="team" value="${foo.team}" />
+    </bean>
+
+    <bean id="testCoach" class="com.arakelyan.springdemo.TestCoach">
+
+        <property name="newFortuneService" ref="newFortuneService" />
+
+    </bean>
+
+
+
+
+</beans>
