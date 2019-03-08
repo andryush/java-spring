@@ -52,10 +52,5 @@
             </div>
         </div>
     </div>
-
-
-<div>
-    <a href="${pageContext.request.contextPath}/customers/list">Back to list</a>
-</div>
 </body>
 </html>
