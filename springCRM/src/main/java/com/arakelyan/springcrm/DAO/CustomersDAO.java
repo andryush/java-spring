@@ -12,4 +12,6 @@ public interface CustomersDAO {
 
     void saveCustomers(Customers theCustomer);
 
+    void deleteCustomersById(int id);
+
 }

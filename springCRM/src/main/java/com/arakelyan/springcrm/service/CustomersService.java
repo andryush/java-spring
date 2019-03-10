@@ -8,4 +8,5 @@ public interface CustomersService {
     List<Customers> getCustomers();
     Customers getCustomersById(int id);
     void saveCustomers(Customers theCustomer);
+    void deleteCustomersById(int id);
 }

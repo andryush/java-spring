@@ -48,4 +48,22 @@ public class CustomersController {
         return "redirect:/customers/list";
 
     }
+
+    @GetMapping("showFormForAddingCustomers")
+    public String showFormForAddingCustomers(Model theModel) {
+
+        Customers customers = new Customers();
+
+        theModel.addAttribute("customers", customers);
+
+        return "update-form";
+    }
+
+    @GetMapping("deleteCustomers")
+    public String deleteCustomers(@RequestParam("customersId") int theId) {
+
+        customersService.deleteCustomersById(theId);
+        return "redirect:/customers/list";
+    }
+
 }

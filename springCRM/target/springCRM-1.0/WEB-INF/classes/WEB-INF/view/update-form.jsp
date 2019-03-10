@@ -11,7 +11,8 @@
 <head>
     <title>Form for update customers</title>
     <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
-    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/styles.css"/>
+    <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/form-styles.css"/>
+
 </head>
 <body>
 
