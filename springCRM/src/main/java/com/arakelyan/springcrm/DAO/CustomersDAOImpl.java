@@ -55,4 +55,25 @@ public class CustomersDAOImpl implements CustomersDAO {
         session.delete(tempCustomer);
     }
 
+    @Override
+    public List<Customers> searchTheCustomer(String theCustomerName) {
+
+        Session session = sessionFactory.getCurrentSession();
+
+        Query theQuery = null;
+
+        if (theCustomerName != null && theCustomerName.trim().length() > 0) {
+            theQuery = session.createQuery("from Customers where lower(firstName) like :theName or lower(lastName) like :theName", Customers.class);
+            theQuery.setParameter("theName", "%" + theCustomerName.toLowerCase() + "%");
+        }
+
+        else {
+            theQuery = session.createQuery("from Customers", Customers.class);
+        }
+
+        List<Customers> customers = theQuery.getResultList();
+
+        return customers;
+    }
+
 }

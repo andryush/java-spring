@@ -10,3 +10,6 @@
 .asteriskField {
     color: red;
 }
+.center-block {
+    float: none !important
+}

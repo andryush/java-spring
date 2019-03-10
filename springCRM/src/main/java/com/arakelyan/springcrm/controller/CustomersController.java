@@ -49,7 +49,7 @@ public class CustomersController {
 
     }
 
-    @GetMapping("showFormForAddingCustomers")
+    @GetMapping("/showFormForAddingCustomers")
     public String showFormForAddingCustomers(Model theModel) {
 
         Customers customers = new Customers();
@@ -59,11 +59,21 @@ public class CustomersController {
         return "update-form";
     }
 
-    @GetMapping("deleteCustomers")
+    @GetMapping("/deleteCustomers")
     public String deleteCustomers(@RequestParam("customersId") int theId) {
 
         customersService.deleteCustomersById(theId);
         return "redirect:/customers/list";
+    }
+
+    @GetMapping("/searchCustomer")
+    public String searchCustomers(@RequestParam("theSearchName") String theSearchName, Model theModel) {
+
+        List<Customers> theCustomer = customersService.searchTheCustomer(theSearchName);
+
+        theModel.addAttribute("customers", theCustomer);
+
+        return "customers-list";
     }
 
 }

@@ -24,16 +24,17 @@
                     <div class="form-group">
                         <div>
                             <button type="button" class="btn btn-primary" name="Add customer" onclick="window.location.href='showFormForAddingCustomers'; return false;">Add customers</button>
-                            <br>
-                            <br>
-                            <form:form action="searchCustomer" method="get">
-                                <input type="text" placeholder="Search for a customer" name="theSearchName" class="control-label" />
-                                <br>
-                                <input type="submit" value="Search" class="btn btn-primary" />
-                            </form:form>
                         </div>
                     </div>
+
                 </div>
+        </div>
+        <div align="center">
+            <form:form action="searchCustomer" method="get">
+                <input type="text" placeholder="Search for a customer" style="text-align: center" name="theSearchName" class="form-control" />
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </form:form>
+        </div>
         </div>
     </div>
 </div>

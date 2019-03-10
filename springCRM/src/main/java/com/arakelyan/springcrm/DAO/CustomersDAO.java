@@ -14,4 +14,5 @@ public interface CustomersDAO {
 
     void deleteCustomersById(int id);
 
+    List<Customers> searchTheCustomer(String theCustomerName);
 }
