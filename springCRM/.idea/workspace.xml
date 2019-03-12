@@ -7,76 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df36c73a-a12f-4bb6-8bb0-bbd2f7b246f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../spring-aop/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-aop-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-aop-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-aop-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-aspects-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-aspects-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-aspects-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-beans-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-beans-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-beans-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-context-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-context-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-context-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-context-indexer-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-context-indexer-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-context-indexer-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-context-support-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-context-support-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-context-support-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-core-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-core-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-core-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-expression-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-expression-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-expression-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-instrument-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-instrument-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-instrument-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-jcl-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-jcl-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-jcl-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-jdbc-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-jdbc-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-jdbc-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-jms-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-jms-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-jms-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-messaging-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-messaging-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-messaging-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-orm-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-orm-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-orm-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-oxm-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-oxm-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-oxm-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-test-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-test-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-test-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-tx-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-tx-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-tx-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-web-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-web-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-web-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-webflux-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-webflux-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-webflux-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-webmvc-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-webmvc-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-webmvc-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-websocket-5.1.4.RELEASE-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-websocket-5.1.4.RELEASE-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-aop/libs/spring-websocket-5.1.4.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring-demo-annotations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-demo-annotations/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web-customer-tracker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web-customer-tracker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-aop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-aop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-aop/out/production/spring-aop/com/arakelyan/aop/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-aop/out/production/spring-aop/com/arakelyan/aop/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-aop/out/production/spring-aop/com/arakelyan/aop/dao/AccountDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-aop/out/production/spring-aop/com/arakelyan/aop/dao/AccountDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-aop/src/com/arakelyan/aop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-aop/src/com/arakelyan/aop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-aop/src/com/arakelyan/aop/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-aop/src/com/arakelyan/aop/aspect/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-aop/src/com/arakelyan/aop/dao/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-aop/src/com/arakelyan/aop/dao/AccountDAO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,12 +21,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springCRM" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/controller/CustomersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1474">
+            <state relative-caret-position="1589">
               <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -102,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/entity/Customers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state>
+              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
               <folding>
                 <element signature="e#783#784#0" expanded="true" />
                 <element signature="e#808#809#0" expanded="true" />
@@ -115,59 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/DAO/CustomersDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/update-form.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="45" column="80" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customers-list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/form-styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/DAO/CustomersDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/service/CustomersService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,19 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/service/CustomerServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="352">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -260,6 +153,17 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springCRM" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -353,6 +257,15 @@
               <item name="arakelyan" type="462c0819:PsiDirectoryNode" />
               <item name="springcrm" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCRM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="arakelyan" type="462c0819:PsiDirectoryNode" />
+              <item name="testdb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springCRM" type="b2602c69:ProjectViewProjectNode" />
@@ -511,12 +424,12 @@
       <workItem from="1551189166270" duration="7841000" />
       <workItem from="1551272855683" duration="22000" />
       <workItem from="1551272888145" duration="31550000" />
-      <workItem from="1552306448549" duration="997000" />
+      <workItem from="1552306448549" duration="2824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40410000" />
+    <option name="totallyTimeSpent" value="42237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,15 +442,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23247497" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49929675" visible="true" weight="0.23247497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5007032" side_tool="true" weight="0.23247497" />
       <window_info id="Learn" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info id="Persistence" order="9" side_tool="true" />
@@ -558,12 +470,12 @@
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297568" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -571,30 +483,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/js/ss" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/jft.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/testdb/TestDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="106" selection-start-line="20" selection-start-column="106" selection-end-line="20" selection-end-column="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="64" column="64" selection-start-line="64" selection-start-column="64" selection-end-line="64" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -622,10 +521,30 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/adding-form.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/search-style.css" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/search.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/DAO/CustomersDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/controller/CustomersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
+        <state relative-caret-position="1589">
           <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/testdb/TestDb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="106" selection-start-line="20" selection-start-column="106" selection-end-line="20" selection-end-column="106" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -634,8 +553,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/entity/Customers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
           <folding>
             <element signature="e#783#784#0" expanded="true" />
             <element signature="e#808#809#0" expanded="true" />
@@ -643,27 +562,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/DAO/CustomersDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/DAO/CustomersDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="264">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/update-form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="80" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customers-list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -674,30 +579,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/DAO/CustomersDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/customers-list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/service/CustomersService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/update-form.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="620">
+          <caret line="45" column="80" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/service/CustomerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
+        <state relative-caret-position="-6">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#675#676#0" expanded="true" />
@@ -707,6 +606,23 @@
             <element signature="e#955#956#0" expanded="true" />
             <element signature="e#1007#1008#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springcrm/service/CustomersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
