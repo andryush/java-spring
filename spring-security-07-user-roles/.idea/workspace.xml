@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3819fa91-2133-4fab-8569-253a7e44dde5" name="Default Changelist" comment="" />
+    <list default="true" id="3819fa91-2133-4fab-8569-253a7e44dde5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-security.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security.war" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springsecurity/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="990">
               <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -53,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
+            <state relative-caret-position="357">
               <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
@@ -83,10 +86,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login-page.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+            <state relative-caret-position="195">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../spring-security-08-jdbc-plaintext/src/main/java/com/arakelyan/springsecurity/config/Config.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -102,18 +110,6 @@
                 <element signature="e#349#350#0" expanded="true" />
                 <element signature="e#427#428#0" expanded="true" />
                 <element signature="e#451#452#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springsecurity/config/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,7 +156,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/arakelyan/springsecurity/config/WebApplicationInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/arakelyan/springsecurity/config/SecurityWebApplicationInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/plain-login-page.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login-page.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/arakelyan/springsecurity/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/leaders.jsp" />
@@ -169,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/arakelyan/springsecurity/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/access-denied.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login-page.jsp" />
       </list>
     </option>
   </component>
@@ -263,7 +259,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553259450685" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553512690367" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -271,6 +267,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.." />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -436,17 +437,17 @@
       <workItem from="1553165772201" duration="2978000" />
       <workItem from="1553169943168" duration="2283000" />
       <workItem from="1553176721711" duration="1476000" />
-      <workItem from="1553252663213" duration="4165000" />
+      <workItem from="1553252663213" duration="6052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17467000" />
+    <option name="totallyTimeSpent" value="19354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -457,7 +458,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40646976" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40646976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -601,41 +602,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login-page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/systems.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springsecurity/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springsecurity/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,10 +625,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="357">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springsecurity/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SpringLocalModels/module=spring-security">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SpringLocalModels</ID>
+          <OriginalElement>module=spring-security</OriginalElement>
+          <nodes>
+            <node x="" y="">module=spring-security</node>
+            <node x="" y="">fileset=spring-security/MVC dispatcher initializer servlet context</node>
+            <node x="" y="">com.arakelyan.springsecurity.config.Config</node>
+            <node x="" y="">com.arakelyan.springsecurity.config.SecurityConfig</node>
+            <node x="" y="">org.springframework.security.config.annotation.web.configuration.EnableWebSecurity</node>
+            <node x="" y="">org.springframework.web.servlet.config.annotation.EnableWebMvc</node>
+            <node x="" y="">fileset=spring-security/MVC dispatcher initializer root context</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9650943396226415" x="520.0" y="44.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Show filesets as groups</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/arakelyan/springsecurity/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login-page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring-security-08-jdbc-plaintext/src/main/java/com/arakelyan/springsecurity/config/Config.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
