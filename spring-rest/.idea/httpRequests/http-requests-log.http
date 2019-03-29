@@ -1,0 +1,32 @@
+GET http://localhost:8080/api/students/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-03-29T122853.200.json
+
+###
+
+GET http://localhost:8080/api/students
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-03-29T122840.200.json
+
+###
+
+GET http://localhost:8080/students/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-03-29T122703.404.html
+
+###
+
+GET http://localhost:8080/students
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-03-29T122615.404.html
+
+###
+
