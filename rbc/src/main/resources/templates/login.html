@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Log in with your account</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" th:href="@{/css/login-styles.css}">
 
 </head>
@@ -10,11 +11,15 @@
 
 <div class="login-page">
     <div class="form">
+        <div th:if="${error}">
+            <h2 th:text="${error}"></h2>
+        </div>
     <form action="#" th:action="@{/login}" class="login-form" method="post" >
 
-        <input type="text" name="username" id="username" class="form-control" placeholder="username" autofocus="true" />
-        <input type="password" name="password" id="password" class="form-control" placeholder="password" />
+        <input type="text" name="username" id="username" class="form-control" placeholder="Username" style="text-align: center" autofocus="true" />
+        <input type="password" name="password" id="password" class="form-control" style="text-align: center" placeholder="Password" />
         <button type="submit">Log In</button>
+        <p class="message">Not registered? <a th:href="@{/registration}">Create an account</a></p>
     </form>
     </div>
 </div>
