@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <title>Registration</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" th:href="@{/css/login-styles.css}">
 </head>
 <body>
@@ -13,23 +14,27 @@
     <div class="form">
         <form action="#" th:action="@{/registration}" th:object="${userForm}" method="post" class="login-form">
 
-            <input type="text" name="username" id="username" th:field="*{username}" class="form-control" placeholder="Username" style="text-align: center" autofocus="true"/>
-            <div class="text text-danger" th:if="${#fields.hasErrors('username')}"
+            <input type="text" name="username" id="username" th:field="*{username}" class="form-control"
+                   placeholder="Username" style="text-align: center" autofocus="autofocus"/>
+            <div class="alert alert-danger" th:if="${#fields.hasErrors('username')}"
                  th:errors="*{username}"></div>
 
-            <input type="password" name="password" id="password" th:field="*{password}" class="form-control" placeholder="Password" style="text-align: center"/>
-            <div class="text text-danger" th:if="${#fields.hasErrors('password')}"
+            <input type="password" name="password" id="password" th:field="*{password}" class="form-control"
+                   placeholder="Password" style="text-align: center"/>
+            <div class="alert alert-danger" th:if="${#fields.hasErrors('password')}"
                  th:errors="*{password}"></div>
 
-            <input type="password" name="confirmPassword" id="confirmPassword" th:field="*{confirmPassword}" class="form-control" placeholder="Confirm password" style="text-align: center"/>
+            <input type="password" name="confirmPassword" id="confirmPassword" th:field="*{confirmPassword}"
+                   class="form-control" placeholder="Confirm password" style="text-align: center"/>
 
-            <div class="text text-danger" th:if="${#fields.hasErrors('confirmPassword')}"
+            <div class="alert alert-danger" th:if="${#fields.hasErrors('confirmPassword')}"
                  th:errors="*{confirmPassword}"></div>
 
             <button type="submit">Register</button>
             <p class="message">Already registered? <a th:href="@{/login}">Sign In</a></p>
         </form>
     </div>
+    <div th:include="fragments/footer :: footer"></div>
 </div>
 </body>
 </html>
