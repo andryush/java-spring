@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>RBC main</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+<div th:include="fragments/header :: header"></div>
+
+<div class="container">
+    <br/>
+    <h3>My profile</h3>
+    <hr>
+
+    <table class="table table-bordered table-striped" style="margin-top: 1rem">
+        <thead class="thead-dark">
+        <tr>
+            <th>Username</th>
+            <th>Role</th>
+            <th>Password</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr >
+            <td th:text="${#request.userPrincipal.name}" />
+            <td th:if="${#request.isUserInRole('ADMIN')}">admin</td>
+            <td th:if="${#request.isUserInRole('USER')}">user</td>
+            <td>
+                <a th:href="@{/profile/changePassword}" class="btn btn-primary">Change password</a>
+            </td>
+        </tr>
+
+
+        </tbody>
+    </table>
+
+</div>
+
+<div th:include="fragments/footer :: footer"></div>
+
+</body>
+</html>

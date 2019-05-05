@@ -46,4 +46,29 @@ public class UserServiceImpl implements UserService {
 
         return userRepository.findByUsername(username);
     }
+
+    @Override
+    public List<User> getAll() {
+        return userRepository.findAll();
+    }
+
+    @Override
+    public User getById(Long id) {
+
+        User user = userRepository.findById(id).orElse(null);
+
+        if (user == null) {
+            throw new RuntimeException("Did not find user id - " + id);
+        }
+
+        return user;
+
+    }
+
+    @Override
+    public void delete(Long id) {
+
+        userRepository.deleteById(id);
+
+    }
 }

@@ -34,6 +34,7 @@ public class SecurityServiceImpl implements SecurityService {
 
     }
 
+
     @Override
     public void autoLogin(String username, String password) {
 
