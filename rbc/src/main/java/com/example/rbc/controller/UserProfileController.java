@@ -2,14 +2,13 @@ package com.example.rbc.controller;
 
 import com.example.rbc.model.User;
 import com.example.rbc.service.UserService;
+import com.example.rbc.validator.PasswordValidator;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -20,11 +19,13 @@ import java.security.Principal;
 public class UserProfileController {
 
 
-    private UserService userService;
+    private final UserService userService;
+    private final PasswordValidator passwordValidator;
 
     @Autowired
-    public UserProfileController(UserService userService) {
+    public UserProfileController(UserService userService, PasswordValidator passwordValidator) {
         this.userService = userService;
+        this.passwordValidator=passwordValidator;
     }
 
     @GetMapping
@@ -34,18 +35,32 @@ public class UserProfileController {
         return "myProfile";
     }
 
-/*    @GetMapping("/changePassword")
+    @GetMapping("/changePassword")
     public String showChangePassword(Principal principal, Model model) {
 
         String username = principal.getName();
 
-        User mainUser = userService.findByUsername(username);
+        System.out.println("DEBUG - PRINCIPAL USERNAME - " + username);
 
-        model.addAttribute("mainUser", mainUser);
+        User userPasswordForm = userService.findByUsername(username);
+
+        model.addAttribute("userPasswordForm", userPasswordForm);
 
         return "changePasswordForm";
-    }*/
+    }
 
+    @PostMapping("/changePassword")
+    public String updatePassword(@ModelAttribute("userPasswordForm") User userPasswordForm, BindingResult bindingResult) {
 
+        passwordValidator.validate(userPasswordForm, bindingResult);
+
+        if (bindingResult.hasErrors()) {
+            return "changePasswordForm";
+        }
+
+        userService.save(userPasswordForm);
+
+        return "redirect:/profile";
+    }
 
 }
