@@ -1,11 +1,16 @@
 package com.example.rbc.model;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.util.List;
-@Data
+
 @Entity
+@Getter
+@Setter
+@ToString(exclude = {"users"})
 @Table(name = "roles")
 public class Role {
 

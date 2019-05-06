@@ -1,11 +1,15 @@
 package com.example.rbc.model;
-
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.util.List;
-@Data
+
 @Entity
+@Getter
+@Setter
+@ToString
 @Table(name = "users")
 public class User {
 
@@ -23,6 +27,5 @@ public class User {
     @JoinTable(name = "user_roles", joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private List<Role> roles;
-
 
 }
