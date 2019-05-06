@@ -58,7 +58,7 @@ public class UserProfileController {
             return "changePasswordForm";
         }
 
-        userService.save(userPasswordForm);
+        userService.savePassword(userPasswordForm);
 
         return "redirect:/profile";
     }

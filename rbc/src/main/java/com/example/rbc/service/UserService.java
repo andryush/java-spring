@@ -13,6 +13,10 @@ public interface UserService {
 
     void save(User user);
 
+    void saveRole(User user);
+
+    void savePassword(User user);
+
     void delete(Long id);
 
     User findByUsername(String username);

@@ -34,8 +34,9 @@
             <td th:text="${tempRegUser.username}"/>
             <td th:text="${tempRegUser.roles}"/>
             <td>
-                <a th:href="@{/clients/showClientFormForUpdate(clientId=${tempRegUser.id})}" class="btn btn-primary">Edit</a>
-                <a th:href="@{/clients/delete(clientId=${tempRegUser.id})}" class="btn btn-danger"
+                <a th:href="@{/userManagement/showUserFormForPassword(userId=${tempRegUser.id})}" class="btn btn-primary">Change password</a>
+                <a th:href="@{/userManagement/showUserFormForRole(userId=${tempRegUser.id})}" class="btn btn-warning">Change role</a>
+                <a th:href="@{/userManagement/delete(userId=${tempRegUser.id})}" class="btn btn-danger"
                    onclick="return confirm('Are you sure you want to delete that client?')">Delete</a>
             </td>
         </tr>
