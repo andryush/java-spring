@@ -18,9 +18,12 @@
                 <li class="nav-item">
                     <a class="nav-link" th:href="@{/welcome}">Client list</a>
                 </li>
+
+                <div sec:authorize="hasRole('ROLE_ADMIN')">
                 <li class="nav-item">
                     <a class="nav-link" th:href="@{/userManagement/showUsers}">User management</a>
                 </li>
+                </div>
 
             </ul>
             <ul class="navbar-nav right">
