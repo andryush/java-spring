@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Log in with your account</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/login-styles.css}">
+
+</head>
+<body>
+
+<div class="login-page">
+
+    <div class="form">
+        <div th:if="${error}">
+            <p class="alert alert-danger" style="font-size: medium" th:text="${error}"></p>
+        </div>
+        <div th:if="${message}">
+            <p class="alert alert-success" style="font-size: medium" th:text="${message}"></p>
+        </div>
+        <form action="#" th:action="@{/login}" class="login-form" method="post">
+
+            <input type="text" name="username" id="username" class="form-control" placeholder="Username"
+                   style="text-align: center" autofocus="autofocus"/>
+            <input type="password" name="password" id="password" class="form-control" style="text-align: center"
+                   placeholder="Password"/>
+            <button type="submit">Log In</button>
+            <p class="message">Not registered? <a th:href="@{/registration}">Create an account</a></p>
+        </form>
+    </div>
+</div>
+<footer>
+    <div class="footer-copyright text-center py-3">Role-based CRM © 2019 Copyright:
+        <a href="mailto:andrey.arakelyan@outlook.com">Andrey Arakelyan</a>
+    </div>
+</footer>
+</body>
+</html>

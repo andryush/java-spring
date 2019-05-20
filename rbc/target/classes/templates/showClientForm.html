@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Add client</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div th:include="fragments/header :: header"></div>
+
+<div class="container">
+    <br>
+    <h3>Add new client</h3>
+    <hr>
+    <form action="#" th:action="@{/clients/save}" th:object="${clientForm}" method="post">
+
+        <input type="hidden" th:field="*{id}">
+
+        <input type="text" th:field="*{firstName}" placeholder="First name" autofocus="autofocus" class="form-control mb-4 col-4" />
+        <div class="alert alert-danger mb-4 col-4" th:if="${#fields.hasErrors('firstName')}"
+             th:errors="*{firstName}"></div>
+
+        <input type="text" th:field="*{lastName}" placeholder="Last name" class="form-control mb-4 col-4" />
+        <div class="alert alert-danger mb-4 col-4" th:if="${#fields.hasErrors('lastName')}"
+             th:errors="*{lastName}"></div>
+
+        <input type="text" th:field="*{email}" placeholder="EMail" class="form-control mb-4 col-4" />
+        <div class="alert alert-danger mb-4 col-4" th:if="${#fields.hasErrors('email')}"
+             th:errors="*{email}"></div>
+
+        <input type="text" th:field="*{phone}" placeholder="Phone number" class="form-control mb-4 col-4" />
+        <div class="alert alert-danger mb-4 col-4" th:if="${#fields.hasErrors('phone')}"
+             th:errors="*{phone}"></div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a th:href="@{/welcome}" class="btn btn-danger">Cancel</a>
+    </form>
+</div>
+
+<div th:include="fragments/footer :: footer"></div>
+</body>
+</html>

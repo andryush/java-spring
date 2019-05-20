@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>RBC main</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+<div th:include="fragments/header :: header"></div>
+
+<div class="container">
+    <br/>
+    <h3>Clients list</h3>
+    <p>Add clients to database</p>
+    <hr>
+    <a th:href="@{/clients/showClientForm}" class="btn btn-primary">Add client</a>
+    <table class="table table-bordered table-striped" style="margin-top: 1rem;">
+        <thead class="thead-dark">
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>EMail</th>
+            <th>Phone number</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="tempClient : ${clients}">
+            <td th:text="${tempClient.firstName}"/>
+            <td th:text="${tempClient.lastName}"/>
+            <td th:text="${tempClient.email}"/>
+            <td th:text="${tempClient.phone}"/>
+            <td>
+                <a th:href="@{/clients/showClientFormForUpdate(clientId=${tempClient.id})}" class="btn btn-primary">Edit</a>
+                <a th:href="@{/clients/delete(clientId=${tempClient.id})}" class="btn btn-danger"
+                   onclick="return confirm('Are you sure you want to delete that client?')">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+
+<div th:include="fragments/footer :: footer"></div>
+
+</body>
+</html>
+
+<!--
+<h2 th:text="'Hello ' + ${#request.userPrincipal.name}"></h2>
+-->

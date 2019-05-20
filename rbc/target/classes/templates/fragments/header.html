@@ -1,0 +1,47 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<div th:fragment="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" th:href="@{/welcome}">RBC App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/profile}">My profile <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/welcome}">Client list</a>
+                </li>
+
+                <div sec:authorize="hasRole('ROLE_ADMIN')">
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/userManagement/showUsers}">User management</a>
+                </li>
+                </div>
+
+            </ul>
+            <ul class="navbar-nav right">
+                <li class="nav-item">
+                    <a class="nav-link">User: [[${#request.userPrincipal.name}]]</a>
+<!--                    <a class="nav-link" th:text="${#request.userPrincipal.}"></a>-->
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:if="${#request.isUserInRole('ADMIN')}">Role: admin</a>
+                    <a class="nav-link" th:if="${#request.isUserInRole('USER')}">Role: user</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" action="#" th:action="@{/logout}" method="post">
+
+                <button class="btn btn-sm btn-outline-secondary my-2 my-sm-0" type="submit">Log out</button>
+            </form>
+        </div>
+    </nav>
+</div>
+</html>
