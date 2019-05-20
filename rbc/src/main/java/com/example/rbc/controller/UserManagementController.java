@@ -76,4 +76,12 @@ public class UserManagementController {
         return "redirect:/userManagement/showUsers";
     }
 
+    @GetMapping("/delete")
+    public String delete(@RequestParam("userId") Long id) {
+
+        userService.delete(id);
+
+        return "redirect:/userManagement/showUsers";
+    }
+
 }

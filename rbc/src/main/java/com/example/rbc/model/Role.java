@@ -20,7 +20,9 @@ public class Role {
 
     private String name;
 
-    @ManyToMany(mappedBy = "roles")
+    @ManyToMany(mappedBy = "roles",
+                cascade = {CascadeType.PERSIST, CascadeType.DETACH,
+                           CascadeType.PERSIST, CascadeType.REFRESH})
     private List<User> users;
 
 }
