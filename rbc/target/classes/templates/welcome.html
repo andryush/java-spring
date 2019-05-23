@@ -18,8 +18,9 @@
     <h3>Clients list</h3>
     <p>Add clients to database</p>
     <hr>
-    <a th:href="@{/clients/showClientForm}" class="btn btn-primary">Add client</a>
-    <table class="table table-bordered table-striped" style="margin-top: 1rem;">
+    <a th:href="@{/clients/showClientForm}" class="btn btn-primary btn-sm">Add client</a>
+    <div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover" style="margin-top: 1rem;">
         <thead class="thead-dark">
         <tr>
             <th>First name</th>
@@ -36,13 +37,14 @@
             <td th:text="${tempClient.email}"/>
             <td th:text="${tempClient.phone}"/>
             <td>
-                <a th:href="@{/clients/showClientFormForUpdate(clientId=${tempClient.id})}" class="btn btn-primary">Edit</a>
-                <a th:href="@{/clients/delete(clientId=${tempClient.id})}" class="btn btn-danger"
+                <a th:href="@{/clients/showClientFormForUpdate(clientId=${tempClient.id})}" class="btn btn-primary btn-sm">Edit</a>
+                <a th:href="@{/clients/delete(clientId=${tempClient.id})}" class="btn btn-danger btn-sm"
                    onclick="return confirm('Are you sure you want to delete that client?')">Delete</a>
             </td>
         </tr>
         </tbody>
     </table>
+    </div>
 
 </div>
 

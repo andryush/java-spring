@@ -18,7 +18,8 @@
     <h3>Users management</h3>
     <p>Registered users list</p>
     <hr>
-    <table class="table table-bordered table-striped" style="margin-top: 1rem;">
+    <div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover" style="margin-top: 1rem;">
         <thead class="thead-dark">
         <tr>
             <th>User ID</th>
@@ -34,17 +35,17 @@
             <td th:text="${tempRegUser.username}"/>
             <td th:text="${tempRegUser.roles}"/>
             <td>
-                <a th:href="@{/userManagement/showUserFormForPassword(userId=${tempRegUser.id})}" class="btn btn-primary">Change password</a>
-                <a th:href="@{/userManagement/showUserFormForRole(userId=${tempRegUser.id})}" class="btn btn-warning">Change role</a>
-                <a th:href="@{/userManagement/delete(userId=${tempRegUser.id})}" class="btn btn-danger"
+                <a th:href="@{/userManagement/showUserFormForPassword(userId=${tempRegUser.id})}" class="btn btn-primary btn-sm">Change password</a>
+                <a th:href="@{/userManagement/showUserFormForRole(userId=${tempRegUser.id})}" class="btn btn-warning btn-sm">Change role</a>
+                <a th:href="@{/userManagement/delete(userId=${tempRegUser.id})}" class="btn btn-danger btn-sm"
                    onclick="return confirm('Are you sure you want to delete that user?')">Delete</a>
             </td>
         </tr>
         </tbody>
     </table>
+    </div>
 
 </div>
-
 <div th:include="fragments/footer :: footer"></div>
 
 </body>
