@@ -37,6 +37,6 @@ With role "ADMIN" user can access following section
 - Bootstrap
 
 ## Contact me
-For testing with ROLE admin please email me, i'll send you admin user or i'll give admin privileges to your existing account.
+For testing with role "ADMIN" please email me, i'll send you admin user or i'll give admin privileges to your existing account.
 
 E-mail: andryush333@gmail.com
